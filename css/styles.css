@@ -1,0 +1,302 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #0E5E6F;
+    font-size: 5.625rem;
+    line-height: 5rem;
+    margin: 20px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #3A8891;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #3A8891;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #0E5E6F 6px;
+    filter: opacity(50%);
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #3A8891;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #686764;
+}
+
+.top-container {
+    background-color: #F8F4EA;
+    height: 700px;
+    padding: 100px 0 50px;
+}
+
+.title-text {
+    position: relative;
+}
+
+.title-summary {
+    position: relative;
+    z-index: 1;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    filter: grayscale(100%) brightness(2);
+    width: 15rem;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 150px;
+    top: 400px;
+    filter: grayscale(100%) brightness(2);
+    z-index: 0;
+    width: 20rem;
+}
+
+.taj-mahal {
+    position: relative;
+    margin: 0 auto;
+}
+
+.middle-container {
+    background-color: #ececec;
+    margin: 0;
+    padding: 80px 0 40px;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    width: 70%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chip-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.award-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.bottom-rule {
+    margin-top: 150px;
+}
+
+.bottom-container {
+    background-color: #F2DEBA;
+    padding: 50px 0 20px;
+}
+
+.contact-me {
+    margin-bottom: 5rem;
+}
+
+.contact-message {
+    width: 35%;
+    margin: 40px auto 80px;
+}
+
+.footer-link {
+    font-weight: bold;
+}
+
+.reference {
+    color: #686764;
+    font-size: 0.75rem;
+    padding: 40px 0 0;
+}
+
+.icons-link {
+    margin: 0;
+    font-weight: bold;
+}
+
+.copyright {
+    color: #686764;
+    font-size: 0.75rem;
+
+}
+
+.btn {
+    background: #4BB6C2;
+    background-image: -webkit-linear-gradient(top, #4BB6C2, #137F94);
+    background-image: -moz-linear-gradient(top, #4BB6C2, #137F94);
+    background-image: -ms-linear-gradient(top, #4BB6C2, #137F94);
+    background-image: -o-linear-gradient(top, #4BB6C2, #137F94);
+    background-image: linear-gradient(to bottom, #4BB6C2, #137F94);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #5fd8e6;
+    background-image: -webkit-linear-gradient(top, #5fd8e6, #1aadc7);
+    background-image: -moz-linear-gradient(top, #5fd8e6, #1aadc7);
+    background-image: -ms-linear-gradient(top, #5fd8e6, #1aadc7);
+    background-image: -o-linear-gradient(top, #5fd8e6, #1aadc7);
+    background-image: linear-gradient(to bottom, #5fd8e6, #1aadc7);
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+
+    h1 {
+        font-size: 3.75rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    hr {
+        width: 10%;
+        margin: 125px auto;
+    }
+
+    .top-container {
+        padding-bottom: 0px;
+    }
+
+    .title-summary {
+        font-size: 1.5rem;
+    }
+
+    .taj-mahal {
+        width: 100%;
+    }
+
+    .top-cloud {
+        right: 0px;
+        top: 120px;
+        width: 4rem;
+    }
+
+    .bottom-cloud {
+        left: 0px;
+        top: 350px;
+        width: 6rem;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .skill-row {
+        width: 66%;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .code-img {
+        float: none;
+        margin: 0 0 20px;
+        width: 50%;
+    }
+
+    .chip-img {
+        float: none;
+        margin: 0 0 20px;
+        width: 50%;
+    }
+
+    .award-img {
+        float: none;
+        margin: 0 0 20px;
+        width: 40%;
+    }
+
+    .middle-container {
+        padding-bottom: 20px;
+    }
+
+    .bottom-rule {
+        margin-top: 0px;
+    }
+
+    .contact-message {
+        width: 70%;
+    }
+
+    .btn {
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+
+    .bottom-container {
+        font-size: 0.7rem;
+    }
+
+    .reference {
+        font-size: 0.6rem;
+    }
+
+    .copyright {
+        font-size: 0.6rem;
+    }
+
+}
